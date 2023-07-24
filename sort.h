@@ -38,4 +38,10 @@ void cocktail_sort_list(listint_t **list);
 
 void counting_sort(int *array, size_t size);
 
+void merge_sort(int *array, size_t size);
+void mover(int *array, int *left, int *right, int l_size, int r_size,
+    int low, int middle);
+void merger(int *array, int low, int middle, int high);
+void splitter(int *array, int low, int high);
+
 #endif
