@@ -2,6 +2,7 @@
 
 /**
  * selection_sort - Sorts an array using selection sort.
+ *
  * @array: the array to be sorted
  * @size: the size of the array
 */
