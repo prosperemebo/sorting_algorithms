@@ -48,4 +48,7 @@ void swap(int *n1, int *n2);
 void heap_max(int *array, size_t size, size_t base, size_t ele);
 void heap_sort(int *array, size_t size);
 
+void count_sort(int *array, size_t size, int digit);
+void radix_sort(int *array, size_t size);
+
 #endif
