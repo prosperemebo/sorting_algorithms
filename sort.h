@@ -55,4 +55,8 @@ void merger(int *array, int low, int n, int dir);
 void sorter(int *array, int low, int n, int dir, size_t size);
 void bitonic_sort(int *array, size_t size);
 
+int partitionner(int *array, int low, int high, size_t size);
+void splitter_helper(int *array, int low, int high, size_t size);
+void quick_sort_hoare(int *array, size_t size);
+
 #endif
