@@ -44,4 +44,8 @@ void mover(int *array, int *left, int *right, int l_size, int r_size,
 void merger(int *array, int low, int middle, int high);
 void splitter(int *array, int low, int high);
 
+void swap(int *n1, int *n2);
+void heap_max(int *array, size_t size, size_t base, size_t ele);
+void heap_sort(int *array, size_t size);
+
 #endif
