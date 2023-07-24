@@ -1,7 +1,9 @@
 #include "sort.h"
 
 /**
- * shell_sort - Sort an array using shell sort algorithm
+ * shell_sort - Sort an array using
+ * shell sort algorithm
+ *
  * @array: Input Array
  * @size: Size of input Array
 */
@@ -13,9 +15,7 @@ void shell_sort(int *array, size_t size)
 	if (size <= 1)
 		return;
 	while (skip < size / 3)
-	{
 		skip = skip * 3 + 1;
-	}
 
 	for (; skip > 0; skip = (skip - 1) / 3)
 	{
