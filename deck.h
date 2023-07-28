@@ -8,14 +8,15 @@
 /**
  * @brief Card Suit Enum
  *
- * An enumeration representing the different suits of a standard deck of cards.
+ * An enumeration representing the different
+ * suits of a standard deck of cards.
  */
 typedef enum kind_e
 {
-    SPADE = 0,   /**< Represents the Spades suit. */
-    HEART,       /**< Represents the Hearts suit. */
-    CLUB,        /**< Represents the Clubs suit. */
-    DIAMOND      /**< Represents the Diamonds suit. */
+	SPADE = 0, /**< Represents the Spades suit. */
+	HEART,	   /**< Represents the Hearts suit. */
+	CLUB,	   /**< Represents the Clubs suit. */
+	DIAMOND	   /**< Represents the Diamonds suit. */
 } kind_t;
 
 /**
