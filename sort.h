@@ -14,9 +14,9 @@
  */
 typedef struct listint_s
 {
-    const int n;
-    struct listint_s *prev;
-    struct listint_s *next;
+	const int n;
+	struct listint_s *prev;
+	struct listint_s *next;
 } listint_t;
 
 void print_list(const listint_t *list);
@@ -40,7 +40,7 @@ void counting_sort(int *array, size_t size);
 
 void merge_sort(int *array, size_t size);
 void mover(int *array, int *left, int *right, int l_size, int r_size,
-    int low, int middle);
+int low, int middle);
 void merger(int *array, int low, int middle, int high);
 void splitter(int *array, int low, int high);
 
