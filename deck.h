@@ -5,6 +5,10 @@
 #include <stdlib.h>
 #include <string.h>
 
+/**
+ * kind_e - Card Enum
+ *
+ */
 typedef enum kind_e
 {
 	SPADE = 0,
