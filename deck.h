@@ -5,10 +5,16 @@
 #include <stdlib.h>
 #include <string.h>
 
+
 /**
- * @brief Card Suit Enum
+ * enum kind_e - Card Suit Enum
  *
- * An enumeration representing the different
+ * @SPADE: Represents the Spades suit.
+ * @HEART: Represents the Hearts suit.
+ * @CLUB: Represents the Clubs suit.
+ * @DIAMOND: Represents the Diamonds suit.
+ *
+ * Description: An enumeration representing the different
  * suits of a standard deck of cards.
  */
 typedef enum kind_e
